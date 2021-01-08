@@ -1,5 +1,6 @@
 h1 {
-	margin: 24px;
+	margin: 12px;
+	margin-bottom: 0px;
 	color: #1c1c1c;
 	font-family: Century Gothic;
 }
@@ -14,6 +15,7 @@ button {
 
 .marg40 {
 	margin: 40px;
+	margin-top: 20px;
 }
 
 .txtar {
