@@ -1,0 +1,21 @@
+h1 {
+	margin: 24px;
+	color: #1c1c1c;
+	font-family: Century Gothic;
+}
+
+p1 {
+	margin: 40px;
+}
+
+button {
+	margin: 12px;
+}
+
+.marg40 {
+	margin: 40px;
+}
+
+.txtar {
+	resize: none;
+}
