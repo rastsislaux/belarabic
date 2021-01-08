@@ -109,7 +109,7 @@ function handleButtonClick() {
 		else if ((txt[i] == 'Ж') || (txt[i] == 'ж')) {
 			k += "ژ‎‎‎";
 		}
-		else if (txt[i] == ' ') {
+		else if ((txt[i] == ' ') && (document.getElementById("keepSpaces").checked == true)) {
 			k += " ‎";
 		}
 		else if (txt[i] == '\'') {
@@ -219,7 +219,7 @@ function handleButton2Click() {
 		else if (txt[i] == 'ع') {
 			k += "\'";
 		}
-		else if (txt[i] == ' ') {
+		else if ((txt[i] == ' ') && (document.getElementById("keepSpaces").checked == true))  {
 			k += " ";
 		}
 	}
