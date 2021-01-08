@@ -126,11 +126,102 @@ function handleButton2Click() {
 	txt[0] = '';
 	// не забыть добавить смягченные символы и ДЖ ДЗ
 	for(let i = 0; i < txt.length; i++) {
-	if (txt[i] == 'ب‎') {
-		k += "б";
-	}
-	else if (txt[i] == 'ب‎‎')
-		k += "б";
+		if (txt[i] == 'ب') {
+			k += "б";
+		}
+		else if (txt[i] == 'ا') {
+			k += "а";
+		}
+		else if (txt[i] == 'ࢯ') {
+			k += "ц";
+		}
+		else if (txt[i] == 'چ') {
+			k += "ч";
+		}
+		else if (txt[i] == 'خ') {
+			k += "х";
+		}
+		else if (txt[i] == 'د') {
+			k += "д";
+		}
+		else if (txt[i] == 'ج') {
+			k += "дж";
+		}
+		else if (txt[i] == 'ف') {
+			k += "ф";
+		}
+		else if (txt[i] == 'ه') {
+			k += "г";
+		}
+		else if (txt[i] == 'ى') {
+			k += "й";
+		}
+		else if (txt[i] == 'ق') {
+			k += "к";
+		}
+		else if (txt[i] == 'ل') {
+			k += "л";
+		}
+		else if (txt[i] == 'م') {
+			k += "м";
+		}
+		else if (txt[i] == 'ن') {
+			k += "н";
+		}
+		else if (txt[i] == 'پ') {
+			k += "п";
+		}
+		else if (txt[i] == 'ر') {
+			k += "р";
+		}
+		else if (txt[i] == 'ص') {
+			k += "с";
+		}
+		else if (txt[i] == 'ش') {
+			k += "ш";
+		}
+		else if (txt[i] == 'ط') {
+			k += "т";
+		}
+		else if (txt[i] == 'و') {
+			k += "в";
+		}
+		else if (txt[i] == 'ض') {
+			k += "з";
+		}
+		else if (txt[i] == 'ژ') {
+			k += "ж";
+		}
+		else if (txt[i] == 'س') {
+			k += "ць";
+		}
+		else if (txt[i] == 'ࢮ') {
+			k += "дз";
+		}
+		else if (txt[i] == 'ل') {
+			k += "ль";
+		}
+		else if (txt[i] == 'ن') {
+			k += "нь";
+		}
+		else if (txt[i] == 'ث') {
+			k += "сь";
+		}
+		else if (txt[i] == 'ز') {
+			k += "зь";
+		}
+		else if (txt[i] == 'ت') {
+			k += "ть";
+		}
+		else if (txt[i] == 'ك') {
+			k += "кь";
+		}
+		else if (txt[i] == 'ع') {
+			k += "\'";
+		}
+		else if (txt[i] == ' ') {
+			k += " ";
+		}
 	}
 	document.getElementById("text-final").value = k;
 }
