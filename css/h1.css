@@ -18,12 +18,11 @@ button {
 	margin: 12px;
 }
 
-.marg40 {
-	margin: 40px;
-	margin-top: 20px;
+.marg20 {
+	margin: 50px;
 }
 
 .txtar {
 	resize: none;
-	width: 80%;
+	width: 100%;
 }
