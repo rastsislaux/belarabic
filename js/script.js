@@ -5,6 +5,13 @@ function init() {
 	button.onclick = handleButtonClick;
 	var button2 = document.getElementById("artokir");
 	button2.onclick = handleButton2Click;
+	var swap_button = document.getElementById("swap");
+	swap_button.onclick = handleSwapButtonClick;
+}
+
+function handleSwapButtonClick() {
+	document.getElementById("text-original").value = document.getElementById("text-final").value;
+	handleButton2Click();
 }
 
 function handleButtonClick() {
