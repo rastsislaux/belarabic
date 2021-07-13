@@ -1,13 +1,7 @@
-@font-face {
-	font-family: CntGothic;
-	src: url(cntgothic.ttf);
-}
-
 h1 {
 	margin: 12px;
 	margin-bottom: 0px;
 	color: #1c1c1c;
-	font-family: CntGothic;
 }
 
 p1 {
